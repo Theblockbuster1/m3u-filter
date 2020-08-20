@@ -1,0 +1,16 @@
+{
+  "name": "a-blank-project",
+  "version": "1.0.0",
+  "description": "Nothing much... yet.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.0"
+  },
+  "engines": {
+    "node": "12.x"
+  }
+}
