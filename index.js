@@ -29,9 +29,3 @@ app.get('/filter/*', (req, res) => {
 app.listen(process.env.PORT);
 console.log(`Listening at :${process.env.PORT}`);
 
-// This code is to keep the project running 24/7
-// You should also set up uptimerobot.com pointing to this domain as a backup.
-setInterval(() => {
-  http.get(`http://${process.env.PROJECT_DOMAIN}.glitch.me/`);
-}, 224000);
-
