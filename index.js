@@ -5,7 +5,7 @@ const fetch = require('node-fetch');
 const app = express();
 app.use(express.json());
 
-app.get('/', (_, res) => res.send("hi"));
+app.get('/', (_, res) => res.send("Running m3u-filter!"));
 app.get('/filter', (_, res) => res.send("No URL found."));
 app.get('/filter/*', (req, res) => {
   if (!req.params[0]) return res.send("No URL found.");
@@ -27,5 +27,4 @@ app.get('/filter/*', (req, res) => {
 });
 
 app.listen(1337);
-console.log(`Listening at :${process.env.PORT}`);
-
+console.log('Listening at :1337');
