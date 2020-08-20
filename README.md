@@ -1,8 +1,3 @@
-# a-blank-project
+# m3u Filter
 
-Nothing much... yet.
-
-
-## What is in this project?
-
-Just some basic code to start up any project without all that default nonsense. Just what you need.
+Can be used to filter out certain categories from IPTV playlists.
