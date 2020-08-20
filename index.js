@@ -26,6 +26,6 @@ app.get('/filter/*', (req, res) => {
     });
 });
 
-app.listen(process.env.PORT);
+app.listen(1337);
 console.log(`Listening at :${process.env.PORT}`);
 
